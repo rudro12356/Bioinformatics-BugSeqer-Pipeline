@@ -1,0 +1,1 @@
+java -cp /home/kcrc915/BugSeqer/FastQC/lib/fastqc.jar:/home/kcrc915/BugSeqer/FastQC/lib/* uk.ac.babraham.FastQC.FastQCApplication "$@"
