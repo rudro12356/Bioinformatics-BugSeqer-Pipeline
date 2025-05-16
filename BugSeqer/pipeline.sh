@@ -1,13 +1,13 @@
 #!/bin/bash
 # Author: Your 16S rRNA sequencing team
 # Description: Pipeline execution script
-#cd /home/kcrc915/BugSeqer/Raw_Reads
+cd /home/kcrc915/BugSeqer/Raw_Reads
 
-#rm -rf raw_reads.zip raw_reads
+rm -rf raw_reads.zip raw_reads
 
-#bash get_fastq.sh
+bash get_fastq.sh
 
-#sleep 10
+sleep 10
 
 cd /home/kcrc915/BugSeqer/Pre-process/qc
 
