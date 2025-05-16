@@ -4,7 +4,7 @@
 
 ### Step 1: Retrieve Sample Accession Numbers
 1. Search for samples on the NCBI SRA portal: [https://www.ncbi.nlm.nih.gov/sra](https://www.ncbi.nlm.nih.gov/sra)
-2. Identify and collect the SRA accession numbers (e.g., `SRR12345678`) relevant to your study (e.g., CRC vs. Healthy Volunteers).
+2. Identify and collect the SRA accession numbers **PRJEB36789** relevant to your study (e.g., CRC vs. Healthy Volunteers).
 3. Save the accession numbers in the following file:  
    `~/BugSeqer/Raw_Reads/SRR_Acc_List.txt`
 
