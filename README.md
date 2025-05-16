@@ -72,5 +72,8 @@ You can view or download all generated results from the following SharePoint lin
 
 ---
 
+## Code Repository
+https://github.com/rudro12356/Bioinformatics-BugSeqer-Pipeline/
+
 ## Reference
 [https://github.com/clayton-lab/BugSeqer/tree/main](https://github.com/clayton-lab/BugSeqer/tree/main)
