@@ -208,9 +208,6 @@ bash ancom_pdf.sh
 
 bash stat_pdf.sh
 
-cd /home/kcrc915/BugSeqer/qiime2/second_analysis_full/core-metrics-results/
-
-bash core-metric-results.sh
 
 echo("16s rRNA Pipeline completed")
 
