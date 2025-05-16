@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: Your 16S rRNA sequencing team
+# Author: 16S rRNA sequencing team
 # Description: Pipeline execution script
 cd /home/kcrc915/BugSeqer/Raw_Reads
 
