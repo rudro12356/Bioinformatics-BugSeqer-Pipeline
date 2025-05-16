@@ -65,12 +65,7 @@ qiime diversity beta-group-significance \
   --o-visualization ${OUTPUT_DIR}/bray-curtis-type-significance.qzv \
   --p-pairwise
 
-qiime diversity beta-group-significance \
-  --i-distance-matrix ${DIVERSITY_DIR}/bray_curtis_distance_matrix.qza \
-  --m-metadata-file ${METADATA} \
-  --m-metadata-column sub-type \
-  --o-visualization ${OUTPUT_DIR}/bray-curtis-sub-type-significance.qzv \
-  --p-pairwise
+
 
 # Jaccard (type and sub-type)
 qiime diversity beta-group-significance \
@@ -80,12 +75,7 @@ qiime diversity beta-group-significance \
   --o-visualization ${OUTPUT_DIR}/jaccard-type-significance.qzv \
   --p-pairwise
 
-qiime diversity beta-group-significance \
-  --i-distance-matrix ${DIVERSITY_DIR}/jaccard_distance_matrix.qza \
-  --m-metadata-file ${METADATA} \
-  --m-metadata-column sub-type \
-  --o-visualization ${OUTPUT_DIR}/jaccard-sub-type-significance.qzv \
-  --p-pairwise
+
 
 # Unweighted UniFrac (type and sub-type)
 qiime diversity beta-group-significance \
@@ -95,12 +85,6 @@ qiime diversity beta-group-significance \
   --o-visualization ${OUTPUT_DIR}/unweighted-unifrac-type-significance.qzv \
   --p-pairwise
 
-qiime diversity beta-group-significance \
-  --i-distance-matrix ${DIVERSITY_DIR}/unweighted_unifrac_distance_matrix.qza \
-  --m-metadata-file ${METADATA} \
-  --m-metadata-column sub-type \
-  --o-visualization ${OUTPUT_DIR}/unweighted-unifrac-sub-type-significance.qzv \
-  --p-pairwise
 
 # Weighted UniFrac (type and sub-type)
 qiime diversity beta-group-significance \
@@ -110,11 +94,6 @@ qiime diversity beta-group-significance \
   --o-visualization ${OUTPUT_DIR}/weighted-unifrac-type-significance.qzv \
   --p-pairwise
 
-qiime diversity beta-group-significance \
-  --i-distance-matrix ${DIVERSITY_DIR}/weighted_unifrac_distance_matrix.qza \
-  --m-metadata-file ${METADATA} \
-  --m-metadata-column sub-type \
-  --o-visualization ${OUTPUT_DIR}/weighted-unifrac-sub-type-significance.qzv \
-  --p-pairwise
 
-echo "All 4 alpha and 8 beta diversity analyses completed successfully!"
+
+echo "All 4 alpha and 4 beta diversity analyses completed successfully!"
